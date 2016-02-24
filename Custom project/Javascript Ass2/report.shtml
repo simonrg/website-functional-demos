@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+	<title>Hell Bent::Report</title>
+	<meta http-equiv="content-type"
+			content="text/html;charset=utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="screen.css"/>	<!--external stylesheet-->
+	<script type="text/javascript" src="scripts.js"></script>	<!--external javascript-->
+
+</head>
+
+
+
+<body>
+
+
+<!--header-->
+	<!--#include file="header.ssi" -->
+
+
+
+<!--navigation-->
+	<!--#include file="nav.ssi" -->
+
+
+
+<!--main content-->
+<div id="main">
+	<h1>JavaScript</h1>
+	<h2>Image slideshow</h2>
+	<p>For the image slideshow I created a handful of image objects and initialised them using the 'new Image()' function. I then referenced the .src attribute
+	for each image object (e.g. img1, img2 ...) to a respective image located in the 'images' folder.</p>
+	
+	<p>The function slides() first checks if there are any images in the document file, if there are none it returns. The line 'document.images.slide' refers to
+	the ID of the image located in the index.shtml page. This is the location of the image slideshow. If the page can't load JavaScript or it's incompatible,
+	then the page will return the image instead of the slideshow. If JavaScript is available the image ID location will become equal to the eval() function.
+	The function 'eval()' in this case takes the image "img" added to an incremental operator (that is initialised to 1 before the function is created) and adds
+	the the .src of the next image. This is what allows the function to progress through the images.</p>
+	
+	<p>The setTimeout() function takes two parameters; the slides() function itself, and an integer that represents the number of time in miliseconds of the
+	transition between each image.</p>
+	
+	<p>For the images to loop and to avoid the function trying to get images that don't exist (e.g. img8) then the increment operator is set to the maximum number
+	of images that have been created (in this case 7). The function will increment the increment operator each time the function runs until it reaches 7. At
+	this point the increment operator is reset to 1.</p>
+	
+	<h2>Clear text</h2>
+	<p>The clear text function simply returns the element with the id "text" (in this case the 'textarea' element) and initialises it to "".</p>
+	
+	<h2>Validate form</h2>
+	<p>There are two mandatory compontents to the form input; a firstname and an email. To check the user has entered a valid first name the script creates an
+	integer 'x' and initialises it to the document with the ID 'myForm' and the ID 'firstname' located within that ID. Then it just checks if x is equal to null
+	or blank.</p>
+	
+	<p>Email validation is based on the mandatory '@' and '.' characters. Similarly to the name, the function initialises a variable y to the ID 'email' located
+	within the element with the 'myForm' ID. It also gets the index of the @ and the LAST '.' in the email address initialised to 'at' and 'dot' respectively. 
+	The if statement check then tests if @ is less than 1 (e.g. before any characters) or the dot is less than at+2 or dot+2 is equal or larger than the total
+	length in which case it is not a valid email address.</p>
+	
+	<h1>WAI/WCAG Compliance</h1>
+	
+	<ul>
+		<li><a href="http://www.w3.org/WAI/">http://www.w3.org/WAI/</a></li>
+		<li><a href="http://www.w3.org/TR/WCAG10/">http://www.w3.org/TR/WCAG10/</a></li>
+		<li><a href="http://ec.europa.eu/ipg/standards/accessibility/wcag-20/standard_wcag_en.htm">http://ec.europa.eu/ipg/standards/accessibility/wcag-20/standard_wcag_en.htm</a></li>
+	</ul>
+	
+	<p>To meet the standards for accessibility I made a few modifications to the aesthetic of the site. The first major one is the use of margins, padding and
+	space. Content sections are easily divided using large title headings. Because of the visual aesthetic I was going for with the darkness I knew it might be
+	difficult to try and make it accessible if I went with white text on a black background for all the major content. So instead of that I just used content
+	borders for text similar to assignment 1. The content borders are all white and so text is conventionally black.</p>
+	
+	<p>Important points in the form for mandatory form fields are noted in red, and the form itself is formatted to be tidy and evenly structured</p>
+	
+	<p>Content on the main content page is seperated and organised via a list of links that jump between different content headings. This way people don't have
+	to scroll through all the text if they just want to quickly review things further down the page. This is especially useful if the page was to one day be
+	expanded to include more text, tables, images and other content.</p>
+</div>
+		
+		
+		
+<!--footer-->
+	<!--#include file="footer.ssi" -->
+
+
+
+</body>
+</html>

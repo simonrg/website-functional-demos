@@ -1,0 +1,20 @@
+/*Reset Style*/
+body {
+	margin:auto;
+	width:95%;
+	padding:0; 
+	line-height: 1.4em; 
+	font: 13px Arial, Helvetica,"Lucida Grande", serif;
+}
+
+
+
+
+/*Links*/
+a{
+	text-decoration:underline;
+	color : #0000ff;
+}
+
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after {content: " (" attr(href) ") "; font-size: 11px;}
+a[href^="http://"] {color:#000;} 

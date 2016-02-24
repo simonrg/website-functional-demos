@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+	<title>Hell Bent::Content</title>
+	<meta http-equiv="content-type"
+			content="text/html;charset=utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="screen.css"/>	<!--external stylesheet-->
+	<script type="text/javascript" src="scripts.js"></script>	<!--external javascript-->
+</head>
+
+
+
+<body>
+
+<!--header-->
+	<!--#include file="header.ssi" -->
+
+
+
+
+<!--navigation-->
+	<!--#include file="nav.ssi" -->
+
+
+
+<!--main content-->
+<div id="main">
+<h1>Franchises</h1>
+
+	<ul>
+		<li><a href="#re">Resident Evil</a></li>
+		<li><a href="#sh">Silent Hill</a></li>
+		<li><a href="#other">Other Franchises</a></li>
+	</ul>
+
+	<a name="re"></a><h2>Resident Evil</h2>
+	<p>Perhaps out of all the horror titles today, none are as well known to gamers and the mainstream public as Capcom's <em>Resident Evil</em> franchise. Starting in 
+	1996 on the original PlayStation, Resident Evil set the benchmark for survival horror games of the time with its dramatic art direction, sound design and 
+	emphasis on survival. The series popularity spawned countless sequels, including two remakes and a movie series.</p>
+	
+	<img src="images/remake1.jpg" title="Remake of the original Resident Evil" alt="Image from the remake of the original Resident Evil"/>
+	
+	<p>When mutilated bodies start turning up in the rural Arklay Mountains, the special forces team <abbr title="Special Tactics and Reconaissance Squad">S.T.A.R.S.</abbr>
+	is sent to investigate. Soon after arriving however, the squad is attacked and forced to take shelter in a mysterious mansion where they discover 
+	a biochemical outbreak that has turned its inhabitants into zombies and mutant monsters </p>
+	
+	<p>The series popularity later led to several sequels; <em>Resident Evil 2</em> and <em>Resident Evil 3: Nemesis</em>, which both continued the story of the
+	infection spreading outside the mansion and infecting the local populace, Raccoon City. These were followed by <em>Resident Evil Code: Veronica X</em> 
+	on the <abbr title="PlayStation 2">PS2</abbr>. The series was redefined in 2005 by <em>Resident Evil 4</em>, widely considered as the beginning of Resident Evil's
+	transition from a horror series into more of a third-person action-adventure. Regardless, RE4's introduction of the over-the-shoulder camera perspective
+	would inevitably change how all third-person shooting games would be played forever in video-games.</p>
+
+	<a name="sh"></a><h2>Silent Hill</h2>
+	<p>The next big horror title came from Konami with the brooding, pyshcological horror thriller Silent Hill. The first Silent Hill released in 1999 
+	has a dramatically different tone to Resident Evil. Instead of 'jump-scares' and throwing enemies at the player that are fast and dangerous, Silent Hill is
+	a brooding, twisted and perverse horror adventure that relies less on combat and more on building tension through atmosphere.</p> 
+	
+	<p>Silent Hill is revered for its atmospheric tension, using fog and darkness to restrict the player's vision. This technique is supplemented by a pocket 
+	radio the player carries that emits static when monsters are close. The combination of fog/darkness and the radio static commonly leads the player to being 
+	conscious of noises around them before they are able to see anything.</p>
+	
+	<img src="images/sh2.png" title="Silent Hill 2: James standing amid the thick fog covering the town" alt="Image from Silent Hill 2"/>
+	
+	<p>Silent Hill is most regarded for its story. One of the most highly regarded entries in the series, <em>Silent Hill 2</em> follows the story of James Sunderland 
+	who is searching for his dead wife after he receives a letter from her asking him to find her in Silent Hill. Cautious, but unable to resist the idea of 
+	seeing her again, James' sadness and regret push him to search for her, but when he arrives he finds that Silent Hill is far from an ordinary mid-western town. 
+	A thick fog covers the town, the streets are deserted, the roads out of town are blocked or destroyed, and he hears strange inhuman noises just beyond the shadows.</p>
+	
+	<p>Silent Hill's cult success leader to a number of titles in the series across different platforms, as well as a movie. Much like Resident Evil, Silent Hill's
+	newer titles are generally not as highly regarded as the series' original four games.</p>
+	
+	<a name="other"></a><h2>Other Franchises</h2>
+	
+	<p>Certain titles (especially later titles in some series') are ommitted because they aren't considered horror. Additionally, games that are thematically
+	'horror' like the <em>Castlevania</em> or <em>Diablo</em> series aren't included.</p>
+	
+	<table id="sort">
+		<thead>
+			<tr><th>Title</th><th>Platform</th><th>Release Date</th><th>Developer</th></tr>
+		</thead>
+		
+		<tr><td>Amnesia: The Dark Descent</td><td>PC</td><td>2010</td><td>Frictional Games</td></tr>
+		<tr><td>Amnesia: A Machine for Pigs</td><td>PC</td><td>2013</td><td>thechineseroom</td></tr>
+		
+		<tr><td>Alone in the Dark</td><td>PC</td><td>1992</td><td>Infograms</td></tr>
+		<tr><td>Alone in the Dark 2</td><td>PC, PlayStation</td><td>1993</td><td>Infograms</td></tr>
+		<tr><td>Alone in the Dark 3</td><td>PC</td><td>1995</td><td>Infograms</td></tr>
+		<tr><td>Alone in the Dark: The New Nightmare</td><td>PC, PlayStation, PS2</td><td>2001</td><td>Darkworks</td></tr>
+		<tr><td>Alone in the Dark (2008)</td><td>PC, PS2, PS3, X360, Wii</td><td>2008</td><td>Eden Games</td></tr>
+		
+		<tr><td>Call of Cthulhu: Dark Corners of the Earth</td><td>PC</td><td>2005</td><td>Headfirst Productions</td></tr>
+		
+		<tr><td>Clock Tower</td><td>Super Nintendo, PlayStation</td><td>1995</td><td>Human Entertainment</td></tr>
+		<tr><td>Clock Tower II: The Struggle Within</td><td>PlayStation</td><td>1998</td><td>Human Entertainment</td></tr>
+		<tr><td>Clock Tower 3</td><td>PS2</td><td>2002</td><td>Capcom</td></tr>
+		
+		<tr><td>Cold Fear</td><td>PC, PS2, Xbox</td><td>2005</td><td>Darkworks</td></tr>
+		
+		<tr><td>Doom 3</td><td>PC</td><td>2004</td><td>id Software</td></tr>
+		<tr><td>Doom 3: Resurrection of Evil</td><td>PC</td><td>2005</td><td>Nerve Software</td></tr>
+		
+		<tr><td>Penumbra: Overture</td><td>PC</td><td>2007</td><td>Frictional Games</td></tr>
+		<tr><td>Penumbra: Black Plague</td><td>PC</td><td>2008</td><td>Frictional Games</td></tr>
+		<tr><td>Penumbra: Requiem</td><td>PC</td><td>2008</td><td>Frictional Games</td></tr>
+		
+		<tr><td>Cryostasis: Sleep of Reason</td><td>PC</td><td>2009</td><td>Action Forms</td></tr>
+		
+		<tr><td>Silent Hill</td><td>PlayStation</td><td>1999</td><td>Team Silent</td></tr>
+		<tr><td>Silent Hill 2</td><td>PS2</td><td>2001</td><td>Team Silent</td></tr>
+		<tr><td>Silent Hill 2: Restless Dreams</td><td>PS2, Xbox</td><td>2001</td><td>Team Silent</td></tr>
+		<tr><td>Silent Hill 3</td><td>PS2</td><td>2003</td><td>Team Silent</td></tr>
+		<tr><td>Silent Hill 4: The Room</td><td>PS2</td><td>2004</td><td>Team Silent</td></tr>
+		<tr><td>Silent Hill: Origins</td><td>PSP, PS2</td><td>2007</td><td>Climax Studios</td></tr>
+		<tr><td>Silent Hill: Homecoming</td><td>X360, PS3</td><td>2009</td><td>Double Helix Games</td></tr>
+		<tr><td>Silent Hill: Shattered Memories</td><td>Wii</td><td>2009</td><td>Climax Studios</td></tr>
+		<tr><td>Silent Hill: Downpour</td><td>X360, PS3</td><td>2012</td><td>Vatra Games</td></tr>
+		
+		<tr><td>F.E.A.R.: First Encounter Assault Recon</td><td>PC</td><td>2007</td><td>Monolith Productions</td></tr>
+		<tr><td>F.E.A.R. 2: Project Origin</td><td>PC</td><td>2009</td><td>Monolith Productions</td></tr>
+		
+		<tr><td>Eternal Darkness: Sanity's Requiem</td><td>Gamecube</td><td>2002</td><td>Silicon Knights</td></tr>
+		
+		<tr><td>Haunting Ground</td><td>PS2</td><td>2005</td><td>Capcom</td></tr>
+		
+		<tr><td>Resident Evil 0</td><td>Gamecube</td><td>2002</td><td>Capcom</td></tr>
+		<tr><td>Resident Evil (2002)</td><td>Gamecube</td><td>2002</td><td>Capcom</td></tr>
+		<tr><td>Resident Evil</td><td>PlayStation</td><td>1996</td><td>Capcom</td></tr>
+		<tr><td>Resident Evil 2</td><td>PlayStation</td><td>1998</td><td>Capcom</td></tr>
+		<tr><td>Resident Evil 3: Nemesis</td><td>PlayStation</td><td>1999</td><td>Capcom</td></tr>
+		<tr><td>Resident Evil Code: Veronica X</td><td>PS2</td><td>2000</td><td>Capcom</td></tr>
+		<tr><td>Resident Evil 4</td><td>PS2, Gamecube</td><td>2005</td><td>Capcom</td></tr>
+		
+		<tr><td>Dead Space</td><td>X360, PS3, PC</td><td>2008</td><td>EA Redwood Shores</td></tr>
+		<tr><td>Dead Space 2</td><td>X360, PS3, PC</td><td>2011</td><td>Visceral Games</td></tr>
+		<tr><td>Dead Space 3</td><td>X360, PS3, PC</td><td>2013</td><td>Visceral Games</td></tr>
+		
+		<tr><td>Fatal Frame</td><td>PS2, Xbox</td><td>2001</td><td>Tecmo</td></tr>
+		<tr><td>Fatal Frame II: Crimson Butterfly</td><td>PS2, Xbox</td><td>2003</td><td>Tecmo</td></tr>
+		<tr><td>Fatal Frame III: The Tormented</td><td>PS2</td><td>2005</td><td>Tecmo</td></tr>
+		
+		<tr><td>Rule of Rose</td><td>PS2</td><td>2006</td><td>Punchline</td></tr>
+		
+		<tr><td>Corpse Party: Blood Covered</td><td>PSP</td><td>2008</td><td>Team GrisGris</td></tr>
+		<tr><td>Corpse Party: Book of Shadows</td><td>PSP</td><td>2012</td><td>Team GrisGris</td></tr>
+		
+		<tr><td>Condemned: Criminal Origins</td><td>PC, X360</td><td>2006</td><td>Monolith Productions</td></tr>			
+		<tr><td>Condemned 2</td><td>X360, PS3</td><td>2008</td><td>Monolith Productions</td></tr>
+		
+		<tr><td>Forbidden Siren</td><td>PS2</td><td>2003</td><td>Project Siren</td></tr>
+		<tr><td>Forbidden Siren 2</td><td>PS2</td><td>2006</td><td>Project Siren</td></tr>
+		<tr><td>Siren: Blood Curse</td><td>PS3</td><td>2008</td><td>Project Siren</td></tr>
+		
+		<tr><td>The Suffering</td><td>PS2, Xbox, PC</td><td>2004</td><td>Surreal Software</td></tr>
+		<tr><td>The Suffering: Ties That Bind</td><td>PS2, Xbox, PC</td><td>2005</td><td>Surreal Software</td></tr>
+		
+		<tr><td>Slender: The Eight Pages</td><td>PC, OS X</td><td>2012</td><td>Parsec Productions</td></tr>
+		<tr><td>Slender: The Arrival</td><td>PC, OS X, PS3, X360, Wii U</td><td>2012</td><td>Parsec Productions</td></tr>
+	</table>
+</div>
+
+
+
+
+<!--footer-->
+	<!--#include file="footer.ssi" -->
+
+
+</body>
+</html>

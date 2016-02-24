@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+	<title>Hell Bent::About</title>
+	<meta http-equiv="content-type"
+			content="text/html;charset=utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="screen.css"/>	<!--external stylesheet-->
+	<script type="text/javascript" src="scripts.js"></script>	<!--external javascript-->
+</head>
+
+
+<body>
+
+<!--header-->
+	<!--#include file="header.ssi" -->
+
+
+
+
+<!--navigation-->
+	<!--#include file="nav.ssi" -->
+
+
+
+
+<!--main content-->
+<div id="main">
+	<h2>Student details</h2>
+	<p>STUDENT ID: 6960464<br/>
+	NAME: Simon Greene<br/>
+	EMAIL: <a href="mailto:6960464@student.swin.edu.au">6960464@student.swin.edu.au</a></p>
+
+	<h2>Introduction</h2>
+	<p>The topic I chose was horror in video games. This includes some brief explanations of the major franchises in video games that are classified 'horror'.
+	These explanations include a very brief history of the franchise and a brief synopsis of the story. Because there are so many games in some of these
+	series' I had to be selective in the scope of some of the information I wrote about. Also included is a table that includes <em>every</em> video game in the
+	horror genre across every console. The scope of the content was to provide an introductory synopsis for the major franchises, whilst also giving people
+	a vague idea of the range and diversity of horror games.</p>
+
+	<h2>Content References</h2>
+	<h3>Images</h3>
+	<ul>
+		<li><a href="http://www.snoobug.com/wp-content/uploads/2008/02/fatalframe2.jpg">http://www.snoobug.com/wp-content/uploads/2008/02/fatalframe2.jpg</a></li>
+		<li><a href="http://www.tumblr.com/tagged/team-silent">http://www.tumblr.com/tagged/team-silent</a></li>
+		<li><a href="http://mancunion.com/2012/10/08/retro-corner-resident-evil-1/">http://mancunion.com/2012/10/08/retro-corner-resident-evil-1/</a></li>
+		<li><a href="http://www.gogaminggiant.com/2010/10/26/games-that-will-scare-your-pants-off-the-fatal-frame-series/">http://www.gogaminggiant.com/2010/10/26/games-that-will-scare-your-pants-off-the-fatal-frame-series/</a></li>
+	</ul>
+	
+	<h3>Content</h3>
+	<ul>
+		<li><a href="http://en.wikipedia.org/wiki/Survival_horror">http://en.wikipedia.org/wiki/Survival_horror</a></li>
+		<li><a href="http://www.relyonhorror.com/">http://www.relyonhorror.com/</a></li>
+		<li><a href="http://www.dreamdawn.com/sh/index.php">http://www.dreamdawn.com/sh/index.php</a></li>
+	</ul>
+
+	<h2>Website and Page Structure</h2>
+	
+	<p>This website is structured into seperate content styles. There are four major sections; header, navigation links, main content and footer. These are
+	styled using the same ID across all of the pages for a consistent content layout. The header has title and other graphics. Navigation links are a horizontally
+	styled list that provide the structure for navigating between content pages. Main content includes all subject matter information and the footer has document
+	control information e.g. references, links to the 'About' and 'Report' pages and links to W3C for valid XHTML and CSS certification. Content pages via the 
+	navigation links are the index page, form demonstration page and a content page to demonstrate other HTML and JavaScript features.</p>
+	
+	<p>Each ID is self-contained so every content page has exactly the same IDs and can be interchangeably copied and pasted between each page (e.g. the footer div). 
+	Additionally because the site only uses IDs, a div ID is only usable once per page so there is no opening and closing of the same div (which is possible using classes) 
+	that can make content structuring look messy and hard to follow.</p>
+	
+	<h2>HTML Features</h2>
+	<ul>
+		<li><a href="http://www.w3schools.com/cssref/sel_target.asp">W3Schools - Targets</a></li>
+		<li><a href="http://www.w3schools.com/css/css_navbar.asp">W3Schools - Navigation Bars</a></li>
+		<li><a href="http://www.w3schools.com/css/css_id_class.asp">W3Schools - ID and Classes</a></li>
+		<li><a href="http://www.sitepoint.com/css3-target-selector/">Targets</a></li>
+	</ul>
+	
+	<h2>CSS Features</h2>
+	<ul>
+		<li><a href="http://www.noupe.com/css/css-techniques-i-wish-i-knew-when-i-started-designing-websites.html">CSS Techniques</a></li>
+		<li><a href="http://www.w3.org/Style/Examples/007/center.en.html">Styling content and centering</a></li>
+		<li><a href="http://cssmediaqueries.com/">Seperate style sheets</a></li>
+	</ul>
+	
+	<h2>JavaScript Features</h2>
+	<ul>
+		<li><a href="http://www.allmyscripts.com/Table_Sort/index.html">Table Sort</a></li>
+		<li><a href="http://www.w3schools.com/htmldom/dom_using.asp">DOM and Nodes</a></li>
+		<li><a href="http://www.w3schools.com/js/js_form_validation.asp">Form Validation</a></li>
+		<li><a href="http://javascript.about.com/library/bldom19.htm">Event Listeners</a></li>
+	</ul>
+</div>
+
+
+
+<!--footer-->
+	<!--#include file="footer.ssi" -->
+
+
+
+</body>
+</html>

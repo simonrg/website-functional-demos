@@ -1,0 +1,119 @@
+/*html {
+	background: url('background.jpg') no-repeat left top fixed; 
+	background-size: cover;
+	}
+*/	
+body{
+	background: url('background.jpg') no-repeat left top fixed;
+	background-size: cover;
+	}
+
+#content{
+	background-color:white;
+	width:90%;
+	margin:auto;
+	}
+	
+hr{
+	width:30%;
+	}
+
+	
+	
+	/*headers and paragraphs*/
+h1{
+	padding:10px 20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Geneva,sans-serif;
+	font-size:200%;
+}
+h2{
+	padding:0 60px;
+	font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Geneva,sans-serif;
+	font-size:150%;
+}
+h3{
+	padding:0 20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Geneva,sans-serif;
+	font-size:110%;
+	}
+p{
+	padding:10px 20px;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:16px;
+}
+#line{
+	font-size:17px;
+	text-align:center;
+	color: rgb(0, 51, 102);
+}
+.center-text{			/*paragraph block formatting*/
+	margin:auto;
+	width:90%;
+	background-color:rgb(219, 231, 240);
+}
+	
+	/*regular lists*/
+ul{
+	font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Geneva,sans-serif;
+	font-size:16px;
+	}
+.center-text li{
+	padding:10px 20px;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:16px;
+}
+	
+	/*navigation list*/
+#navrow .nav-text{
+	color: rgb(0, 51, 102);
+	font-size:20px;
+}
+#navrow{
+	font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Geneva,sans-serif;
+	list-style-type:none;
+	margin:10px;
+	padding:0;
+	border-bottom: 40px solid rgb(219, 231, 240);
+	text-shadow: 1px 1px 0px rgb(220, 220, 220);
+}
+#navrow li {float:left;}
+
+#navrow a{
+	display:block;
+	width:200px;
+	height:40px;
+	padding:0 4px;
+	line-height:40px;
+	text-align:center;
+	text-decoration:none;
+}
+#navrow a:hover,#navrow a:active{background-color:LightBlue;}
+
+
+
+
+
+	/*images*/
+#centerimage{text-align:center;}
+
+
+
+
+
+
+	/*footer*/
+#footer{
+	font-family: Arial,"MS Trebuchet",sans-serif;
+	font-size:11px;
+	text-align:center;
+	margin:auto;
+	width:80%;
+	}
+#div1{
+	width: 80px;
+	float: left;
+	padding: 5px 40px;
+    }
+#div2 {
+	padding: 5px 0;
+	}

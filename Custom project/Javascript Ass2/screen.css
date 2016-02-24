@@ -1,0 +1,153 @@
+/*general content style*/
+html
+{
+	background-image:url('images/moon.jpg'); /*http://www.pxlshots.com/photo/15348/moon-in-a-cloudy-sky.html*/
+	font-family:"candara";
+	}
+
+body{
+	background-color:black;
+	width:90%;
+	margin:auto;
+	}
+
+blockquote
+{
+	padding:10px 20px;
+}
+	
+	
+/*header*/
+#header
+{
+	font-family:"candara";
+}
+
+
+
+/*nav bar style*/
+#nav
+{
+	font-size:24px;
+	background-image:url('style/nav.png');
+	list-style-type:none;
+	height:60px;
+}
+
+#nav li {float:left;}
+
+#nav a 	/*link formatting*/
+{
+	color:white;
+	text-decoration:none;
+	text-align:center;
+	line-height:50px;
+	display:block;
+	width:200px;
+	height:40px;
+	padding:0 4px;
+}
+
+#nav a:hover,#nav a:active{text-shadow: 0 0 10px red;}
+
+
+
+
+/*main content*/
+#header h1
+{
+	color:white;
+	font-size:60px;
+	padding:0 15px;
+}
+
+#header p{color:white;}
+#header img
+{
+	position: absolute;
+	top:0px;
+	margin-bottom:40px;
+	right:0px;
+	padding:4.4%;
+	padding-right:5%;
+}
+
+p {padding:10px 20px;}
+
+.special
+{
+	font-size:15px;
+	color:red;
+	padding:10px;
+}
+
+label {
+	width:10%;
+    float:left;
+}
+
+#main
+{
+	font-family:"candara";
+	background-color:white;
+	width:85%;
+	margin:auto;
+}
+
+#main h1, #main h2, #main h3, #main p, #main form
+{
+	color:black;
+	background-color:white;
+	padding:10px;
+	margin:auto;
+	width:95%;
+}
+
+#main img
+{
+	border: 1px solid #666;
+	float:right;
+	margin-left:20px;
+	margin-right:15px;
+	margin-top:15px;
+}
+
+#main form
+{
+	border-style:solid;
+	border-color:red;
+	border-width:1px;
+	padding:5px 10px;
+}
+
+table, th, td
+{
+	border:1px solid black;
+	margin:auto;
+}
+
+
+
+
+/*footer*/
+#footer
+{
+	color:white;
+	font-family:"MS Trebuchet",sans-serif;
+	font-size:11px;
+	width:85%;
+	margin:auto;
+}
+
+#htmltag
+{
+	background-color:white;
+	float:left;
+	padding:5px;
+}
+
+#csstag
+{
+	background-color:white;
+	padding:5px 0;
+}

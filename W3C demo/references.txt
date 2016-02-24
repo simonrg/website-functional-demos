@@ -1,0 +1,29 @@
+http://www.hwg.org/opcenter/w3c/
+
+http://www.noupe.com/css/css-techniques-i-wish-i-knew-when-i-started-designing-websites.html
+
+http://www.w3.org/2004/Talks/w3c10-HowItAllStarted/?toc=true
+
+http://www.w3.org/2004/Talks/Styles/w3c10/images/timeline.pdf
+
+http://www.w3schools.com/w3c/w3c_intro.asp
+
+
+
+
+<div class="center-text">
+<p>The W3C was an organisation that developed alongside the Web and through which the grounding principles of the organisation 
+were established.</p>
+</div>
+
+
+<ul>
+<li>1980 - Tim Berners-Lee writes the 'ENQUIRE' system, a pre-cursor to the modern Web that introduces the concept of making links between arbitrary nodes. 
+Although ENQUIRE uses hypertext, the system is very restrictive and limited by technical capabilities and expertise. 
+Tim Berners-Lee wants to develop a system that is open for everyone.</li>
+<li>1990 - Development of World Wide Web (WWW) begins. First Web client-server communication over the Internet later that year.</li>
+<li>1993 - European Organisation for Nuclear Research (CERN) releases Web protocol and code allowing anybody to use it royalty free.</li>
+<li>1994 - World Wide Web Consortium is founded by Tim Berners-Lee, Al Vezza and Michael Dertouzous.</li>
+<li>1997 - First HTML recommendation published by the W3C - HTML 3.2.</li>
+<li>1998 - Guidelines for content internationalisation are adopted by W3C.</li>
+</ul>

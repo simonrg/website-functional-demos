@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+	<title>Hell Bent::Form</title>
+	<meta http-equiv="content-type"
+			content="text/html;charset=utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="screen.css"/>	<!--external stylesheet-->
+	<script type="text/javascript" src="scripts.js"></script>	<!--external javascript-->
+
+</head>
+
+
+
+<body>
+
+
+<!--header-->
+	<!--#include file="header.ssi" -->
+
+
+
+<!--navigation-->
+	<!--#include file="nav.ssi" -->
+
+
+
+<!--main content-->
+<div id="main">
+	<h2>Newsletters</h2>
+	<p>Sign up to receive updates about the latest horror games that may be coming out. Also you can submit the web form to us below with any suggestions or 
+	referral of games that we may have missed!</p>
+	
+	<form id="myForm" method="post" action="http://dev.ict.swin.edu.au/hit1307/demos/showpost.php" onsubmit="return validateForm()">
+		<p><label>First name:</label><input type="text" name="firstname"/><em class="special">*Required</em></p>
+		<p><label>Last name:</label><input type="text" name="lastname"/></p>
+		<p><label>Email:</label><input type="text" name="email"/><em class="special">*Required (e.g. someone@email.com)</em></p>
+		
+		<p>Male<input type="radio" name="sex" value="male"/>Female<input type="radio" name="sex" value="female"/></p>
+		
+		<p><em>If you would like to sign up for occassional promotional material that can't be sent via email please enter your details below:</em></p>
+		<p><label>Street No.:</label><input type="text" name="street"/></p>
+		<p><label>City:</label><input type="text" name="suburb"/></p>
+		<p><label>State:</label><select name="state">
+			<option value="null"></option>
+			<option value="act">ACT</option>
+			<option value="nsw">NSW</option>
+			<option value="nt">NT</option>
+			<option value="qld">QLD</option>
+			<option value="sa">SA</option>
+			<option value="tas">TAS</option>
+			<option value="vic">VIC</option>
+			<option value="wa">WA</option>
+		</select></p>
+		
+		<p><textarea id="text" rows="10" cols="50" onclick="clearText()">Are there any new horror games coming out you can submit for inclusion?</textarea></p>
+		
+		<p>Check to receive newsletters about the latest horror games<input type="checkbox" name="check"/></p>
+		
+		<p><input type="submit"/>
+		<input type="reset"/></p>
+	</form>
+</div>
+		
+		
+		
+<!--footer-->
+	<!--#include file="footer.ssi" -->
+
+
+
+</body>
+</html>
